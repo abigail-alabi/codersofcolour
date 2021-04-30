@@ -1,4 +1,6 @@
-name: Deploy to heroku
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy abigail-site to heroku
 
 on:
   push:
