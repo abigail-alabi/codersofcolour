@@ -25,7 +25,7 @@ jobs:
         python manage.py makemigrations --check --noinput
         python manage.py check
         python3 manage.py test
-    - uses: akhileshns/heroku-deploy@v3.12.12
+    - uses: akhileshns/heroku-deploy@v3.4.6
       with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.HEROKU_APP_PRODUCTION}}
